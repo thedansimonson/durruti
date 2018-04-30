@@ -1,0 +1,13 @@
+{
+    "PREFERRED_SOURCE_CONFIG": "parms-2-template.json",
+    "INPUT_FILENAME": "C2-COUNTS-FRESH-D000-B000.pkl",
+    "OUTPUT_HEAD": "C3-PMI",
+    "OUTPUT_FOOT": "-L{LAMBDA:.2f}-B{BETA:.2f}-s{MAX_SCHEMA_SIZE:.2f}-S{NUMBER_OF_SCHEMAS:.2f}.pkl",
+    
+    "_comment_": "Lambda: Relative weight given to type associations over pmi",
+    "LAMBDA": 1.0,
+    "BETA": 0.3,
+    "MAX_SCHEMA_SIZE": 6,
+    "NUMBER_OF_SCHEMAS": 800
+
+}

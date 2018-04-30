@@ -1,0 +1,25 @@
+{
+    "_COMMENT_": "Just ignore the x-validation stuff for this, so far.",
+    "PREFERRED_SOURCE_CONFIG": "???",
+    "FEATURE_CHOICES": ["flat"],
+    "MODE": "flat",
+    "INPUT_FILENAME": "op1-sem_trisplit_typed_flat.pkl",
+    "OUTPUT_FILENAME": "C2-COUNTS-FRESH",
+    
+
+    "_COMMENT_": "Associated variables may be omitted if DOWNSAMPLE_X is false",
+    "_COMMENT_": "If you want multiple DEP threads, run this multiple times.",
+    "_COMMENT_": "BINFUNC: M is max size. i is current size. Output: number of docs removed",
+    "DEP_BINFUNC": "lambda M,i: M",
+    "_ALT_DEP_BINFUNC: EQUAL BINS": "lambda M,i: int(M/10)",
+    "_ALT_DEP_BINFUNC: DECAY": "lambda M,i: int(i/10)+3",
+    "_ALT_DEP_BINFUNC: TURN IT OFF": "lambda M,i: M",
+
+    "_COMMENT_": "X_XVALIDATIONS is the number of bin permutations saved. Each XV removes one bin. 1 outputs one file, 2 outputs two files, each with different bins removed, etc. 0 disables cross-validation entirely.",
+    "_COMMENT_": "If binsizes are floats, it figures that's the fractional binsize. If they are ints, that's the number of documents per bin. Not a func because that doesn't really make sense for what breadth is for.",
+    "DOWNSAMPLE_BRE": false,
+    "BRE_BINSIZE": 0.1,
+    "BRE_XVALIDATIONS": 2
+
+}
+

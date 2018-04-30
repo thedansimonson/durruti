@@ -1,0 +1,26 @@
+# comments use hash marks
+# white space is stripped
+# blank lines are skipped
+
+#light verbs
+be
+have
+make
+do
+try #as in trial--oughtta keep this
+
+# there may be an interesting thing to do with these later, but for now
+# it's just noise
+say
+yell
+write
+tell
+describe
+call
+#ask
+know #highly polysemous, with some interesting senses
+
+# change of location verbs
+go
+#come
+#leave

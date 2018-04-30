@@ -1,0 +1,11 @@
+Uber suspends self-driving car program after pedestrian death in Arizona, United States
+
+On Monday, the United States ride-sharing company Uber announced suspension of its experimental self-driving car program after one of the cars fatally struck a 49-year-old woman pedestrian in Tempe, Arizona on Sunday night.
+
+The company characterized the suspension of the program — in the Phoenix area and also in Pittsburgh; San Francisco; and Toronto, Canada — as a standard response in the wake of the accident. Uber released a statement that "Our hearts go out to the victim’s family. We are fully cooperating with local authorities in their investigation of this incident." According to a spokeswoman, the company is also conducting its own investigation.
+
+Elaine Herzberg was hit at about 10 pm local time (UTC -7) on Sunday when she walked into the street with her bicycle about 100 yards or less from a crosswalk. She died later in hospital. The Volvo car was operating autonomously. Sylvia Moir, chief of police in Tempe, told the San Francisco Chronicle that according to the human operator in the vehicle — Rafaela Vasquez, 44 — "it was like a flash", there was no time to override the computer to take evasive action, the first indication was the sound of impact.
+
+The police stated the car was moving three miles per hour (mph) over a speed limit of 35 mph. According to Moir, recordings from the car's video cameras indicated it would have been "difficult to avoid this collision in any kind of mode". Moir told the San Francisco Chronicle that while she "[wouldn't] rule out the potential to file charges" against Vasquez, "preliminarily it appears that the Uber would likely not be at fault in this accident".
+
+Uber started its Arizona self-driving test program in February 2017, using vehicles that had been banned in California due to safety concerns. The next month one was involved in a collision while in self-driving mode after another car failed to yield the right of way; the Uber SUV rolled on its side.

@@ -1,0 +1,7 @@
+{
+    "PREFERRED_SOURCE_CONFIG": "parms-3-template.json",
+    "INPUT_FILENAME": false,
+    "OUTPUT_HEAD": "schemas-CT",
+    "OUTPUT_FOOT": "-{MODEL_FNAME}-.pkl"
+
+}

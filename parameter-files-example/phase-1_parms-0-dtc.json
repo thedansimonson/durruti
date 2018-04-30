@@ -1,0 +1,21 @@
+{
+    "NLPROC_SOURCE": "/media/emperor/simonson-XV/Corpora/ECBplus/parses/",
+    "ECB_COMBINED_PATH": "/media/emperor/simonson-XV/Corpora/ECBplus/ecb_combined/",
+    "TARGET_DUMP": "/home/emperor/Desktop/School/diss-engines/subcorporizer_ECB/hyperpickles/",
+    "USE_EVERYTHING": true,
+    "_comment": "BELOW ARE USED IN compute-1-count-flat-holdout",
+
+    "_comment": "COUNTS_PATH *REQUIRES* a %s to dump the mode in",
+
+    "TEST_MODE": false,
+    "UNIQUE_INDEX": "filename",
+    "COUNTS_TYPED_PATH": "ecb0_typed_%s.pkl",
+    "COUNTS_HEADS_PATH": "ecb0_heads_%s.pkl",
+
+    "_comment": "This is weird, but the aggregation isn't done until the next script.",
+
+    "FEATURE_CHOICES": ["flat"],
+    "USE_HOLDOUT": false,
+    "HOLDOUT_PATH": "no_holdout"
+
+}

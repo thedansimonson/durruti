@@ -1,0 +1,23 @@
+{
+    "NLPROC_SOURCE": "/media/emperor/Simonson-XVIIa/corpora/NYT-Parsed-All/",
+    "NYT_PATH": "/home/emperor/Corpora-Hot/NYT_Corpus/data/",
+    "TARGET_DUMP": "/media/emperor/Simonson-XVIIa/corpora/Products-and-Outputs/NYT-OP-1-SEM/",
+    "OP_LIST_PATH": "op1_semantic.txt",
+    "USE_EVERYTHING": false,
+    "_comment": "BELOW ARE USED IN compute-1-count-flat-holdout",
+
+    "_comment": "COUNTS_PATH *REQUIRES* a %s to dump the mode in",
+
+    "TEST_MODE": false,
+    "COUNTS_TYPED_PATH": "op1-sem_trisplit_typed_%s.pkl",
+    "COUNTS_HEADS_PATH": "op1-sem_trisplit_heads_%s.pkl",
+
+    "_comment": "This is weird, but the aggregation isn't done until the next script.",
+
+    "UNIQUE_INDEX": "doc-id",
+    "FEATURE_CHOICES": ["flat"],
+    "USE_HOLDOUT": true,
+    "HOLDOUT_PATH_DEV":  "/media/emperor/Simonson-XVIIa/16_topic-architecture_cache/44_op1_sem_dev/",
+    "HOLDOUT_PATH_TEST": "/media/emperor/Simonson-XVIIa/16_topic-architecture_cache/44_op1_sem_test/"
+
+}

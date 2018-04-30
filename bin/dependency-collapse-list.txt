@@ -1,0 +1,55 @@
+root: null
+dep: null
+
+aux: null
+    auxpass: null
+    cop: null
+arg: null
+    agent: SUBJ
+    comp: OBJ
+        acomp: null
+        ccomp: null
+        xcomp: null
+        obj: OBJ
+            dobj: OBJ
+            iobj: PREP
+            pobj: PREP
+    subj: SUBJ
+        nsubj: SUBJ
+        nsubjpass: OBJ
+    csubj: SUBJ
+        nsubjpass: OBJ
+cc: null
+conj: null
+expl: null
+mod: null
+    amod: null
+    appos: null
+    advcl: null
+    det: null
+    predet: null
+    preconj: null
+    vmod: null
+    mwe: null
+    mark: null
+advmod: null
+    neg: null
+rcmod: null
+quantmod: null
+nn: null
+npadvmod: null
+    tmod: null
+num: null
+number: null
+prep: PREP
+poss: null
+possessive: null
+prt: null
+
+parataxis: null
+punct: null
+ref: null
+sdep: null
+    xsubj: SUBJ
+
+_DEFAULT: null

@@ -1,0 +1,8 @@
+If using Stanford CoreNLP, used by default, this software is covered by the GNU
+Public License.
+
+Otherwise, if the software distributed in this repository is rewritten and 
+executed in a manner that does not require or rely upon any output 
+of Stanford CoreNLP, or if you have obtained a license for CoreNLP that 
+excludes you from GNU Public License requirements, the software in this 
+repository is otherwise covered under the CC-BY 4.0 license.
