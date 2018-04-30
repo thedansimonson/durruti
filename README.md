@@ -95,9 +95,11 @@ execute the NASTEA task without using schemas.
 ## Citation
 
 Easy, covers everything, cite my dissertation:
+
     Simonson, D. (2017). Investigations of the Properties of Narrative Schemas. Doctoral Dissertation. Advisor: Davis, A. R. Committee: Zeldes, A. and Chambers, N. Georgetown University, Washington, D.C.
 
 For just the NASTEA task or a discussion of document heterogeneity/homogeneity,
 cite:
+
     Simonson, D. and Davis, A. (2016). NASTEA: Investigating Narrative Schemas through Annotated Entities. In the Second CnewS Workshop, EMNLP 2016, Austin, TX. 
 
