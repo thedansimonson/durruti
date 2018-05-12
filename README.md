@@ -2,6 +2,9 @@
 
 *This public release is still under development.*
 
+*This is intended as a general purpose schema generation tool. For questions
+about specific experimental configurations, please contact me.*
+
 ## Schema Generation Tool
 
 *Durruti* is a set of Python scripts for generating *narrative 
