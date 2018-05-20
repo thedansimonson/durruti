@@ -1,0 +1,7 @@
+{
+    "PREFERRED_SOURCE_CONFIG": "op1-parms-4.json",
+    "INPUT_FILENAME": false,
+    "OUTPUT_HEAD": "/media/emperor/Simonson-XVIIa/stability_experiments/op1_sem/C4/schemas-RW",
+    "OUTPUT_FOOT": "-{MODEL_FNAME_SHORT}-.pkl"
+
+}

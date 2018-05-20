@@ -1,0 +1,10 @@
+{
+    "PREFERRED_SOURCE_CONFIG": "op1-parms-2.json",
+    "INPUT_FILENAME": false,
+    "OUTPUT_HEAD": "/media/emperor/Simonson-XVIIa/stability_experiments/op1_sem_38/C3/C3-PMI",
+    "OUTPUT_FOOT": "-D{source_data[DEP_i]:03d}-B{source_data[BRE_i]:03d}.pkl",
+    
+    "_comment_": "Lambda: Relative weight given to type associations over pmi",
+    "LAMBDA": 1.0
+
+}

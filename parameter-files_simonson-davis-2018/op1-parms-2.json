@@ -1,0 +1,24 @@
+{
+    "PREFERRED_SOURCE_CONFIG": "/home/emperor/Desktop/School/diss-engines/subcorporizer_5/op1_semantic_38.json",
+    "MODE": "topical",
+    "INPUT_FILENAME": "/media/emperor/Simonson-XVIIa/stability_experiments/op1_sem_38/op1-semantic_typed_doc-id-cat-match.pkl",
+    "OUTPUT_FILENAME": "/media/emperor/Simonson-XVIIa/stability_experiments/op1_sem_38/C2/C2-op1",
+    
+    "FEATURE_CHOICES": ["cat-match"],
+
+    "_COMMENT_": "Associated variables may be omitted if DOWNSAMPLE_X is false",
+    "_COMMENT_": "If you want multiple DEP threads, run this multiple times.",
+    "_COMMENT_": "BINFUNC: M is max size. i is current size. Output: number of docs removed",
+    "DEP_BINFUNC": "lambda M,i: int(M/10)",
+    "_ALT_DEP_BINFUNC: EQUAL BINS": "lambda M,i: int(M/10)",
+    "_ALT_DEP_BINFUNC: DECAY": "lambda M,i: int(i/10)+3",
+    "_ALT_DEP_BINFUNC: TURN IT OFF": "lambda M,i: M",
+
+    "_COMMENT_": "X_XVALIDATIONS is the number of bin permutations saved. Each XV removes one bin. 1 outputs one file, 2 outputs two files, each with different bins removed, etc. 0 disables cross-validation entirely.",
+    "_COMMENT_": "If binsizes are floats, it figures that's the fractional binsize. If they are ints, that's the number of documents per bin. Not a func because that doesn't really make sense for what breadth is for.",
+    "DOWNSAMPLE_BRE": true,
+    "BRE_BINSIZE": 0.1,
+    "BRE_XVALIDATIONS": 10
+
+}
+
